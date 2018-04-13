@@ -8,6 +8,8 @@
 5. add 'models.py' and 'views.py' or use 'startapp' [more](https://docs.djangoproject.com/en/2.0/intro/tutorial01/)
 6. sync the db: `python manage.py makemigrations quack` `python manage.py migrate` 
 7. create a superuser `python manage.py createsuperuser --username=aalobaid --email=aalobaid@fi.upm.es`
+8. download [bootstrap template](https://startbootstrap.com/template-overviews/bare/).
+
 
 ## Important topics
 * [template language](https://docs.djangoproject.com/en/1.7/topics/templates/)
