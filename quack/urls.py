@@ -19,5 +19,7 @@ from quack import views
 
 urlpatterns = [
 #    url(r'^admin/', admin.site.urls),
+    url('list_ducks', views.list_ducks),
     url('', views.home),
+
 ]
