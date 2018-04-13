@@ -58,7 +58,7 @@ print os.path.join(BASE_DIR, 'quack/templates')
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ['/Users/aalobaid/workspaces/Pyworkspace/quack-django-intro/quack/templates'],
+        'DIRS': [os.path.join(BASE_DIR, 'quack/templates')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
