@@ -55,12 +55,13 @@
               <a class="nav-link" href="add_duck">add duck</a>
             </li>
             {%if user.is_authenticated%}
-
+              <li class="nav-item">
+              <a class="nav-link" href="myducks">my ducks</a>
+            </li>
             <li class="nav-item">
               <a class="nav-link" href="logout">logout</a>
             </li>
             {%else%}
-
  <li class="nav-item">
               <a class="nav-link" href="login">login</a>
             </li>

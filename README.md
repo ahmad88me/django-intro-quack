@@ -17,3 +17,11 @@
 
 ## Important topics
 * [template language](https://docs.djangoproject.com/en/1.7/topics/templates/)
+
+
+## Changes since the last session
+1. Fix the login/logout
+
+
+
+

@@ -1,8 +1,8 @@
 {% extends "base.html" %}
 {% block body %}
 <form method="POST"> {%csrf_token%}
-    <input name="username" class="form-control"/>
-    <input name="password" type="password" class="form-control"/>
-    <input type="submit"/>
+    <input name="username" placeholder="Enter the username" class="form-control"/>
+    <input name="password" type="password" placeholder="Enter the password" class="form-control"/>
+    <input type="submit" class="form-control" value="Login"/>
 </form>
 {% endblock %}

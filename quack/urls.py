@@ -21,8 +21,10 @@ urlpatterns = [
 #    url(r'^admin/', admin.site.urls),
     url('list_ducks', views.list_ducks),
     url('add_duck', views.add_duck),
+    url('delete_duck', views.delete_duck),
     url('login', views.login_view),
     url('logout', views.logout_view),
+    url('add_to_me', views.add_to_me),
+    url('myducks', views.myducks),
     url('', views.home),
-
 ]
