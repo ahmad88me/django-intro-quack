@@ -2,4 +2,5 @@
 
 ## Steps
 1. [pip](https://pip.pypa.io/en/stable/installing/)
-2. Install Django `pip install Django==2.0.4`
+2. Install Django `pip install Django==2.0.4` [more](https://www.djangoproject.com/download/)
+
