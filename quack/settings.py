@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'quack',
 ]
 
 MIDDLEWARE = [
@@ -51,10 +52,13 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'quack.urls'
 
+print BASE_DIR
+print os.path.join(BASE_DIR, 'quack/templates')
+
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['/Users/aalobaid/workspaces/Pyworkspace/quack-django-intro/quack/templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
