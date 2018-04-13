@@ -26,5 +26,15 @@ urlpatterns = [
     url('logout', views.logout_view),
     url('add_to_me', views.add_to_me),
     url('myducks', views.myducks),
+    url('remove', views.remove_from_me),
     url('', views.home),
 ]
+
+
+import settings
+from django.conf.urls.static import static
+
+urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
+
+
+

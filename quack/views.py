@@ -38,6 +38,15 @@ def add_to_me(request):
     d.save()
     return HttpResponse('duck is added to the basket')
 
+@login_required
+def remove_from_me(request):
+    d = Duck.objects.get(id=request.GET['id'])
+    d.owner = None
+    d.save()
+    return redirect('/myducks')
+
+
+
 
 @login_required
 def myducks(request):
