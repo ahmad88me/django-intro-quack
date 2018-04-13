@@ -1,0 +1,10 @@
+{%extends "base.html"%}
+
+{%block body%}
+<form method="POST"> {%csrf_token%}
+    <input name="model" class="form-control" placeholder="Model"/>
+    <input name="price" class="form-control" placeholder="price"/>
+    <input type="submit">
+</form>
+
+{%endblock%}

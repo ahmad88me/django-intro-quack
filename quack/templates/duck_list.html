@@ -1,4 +1,23 @@
 {% extends "base.html" %}
 {% block body %}
 Here are all the ducks
+
+<table class="table">
+    <tr>
+        <td>id</td>
+        <td>model</td>
+        <td>price</td>
+    </tr>
+    {%for d in ducks%}
+    <tr>
+        <td>{{d.id}}</td>
+        <td>{{d.model}}</td>
+        <td>{{d.price}}</td>
+    </tr>
+    {%endfor%}
+
+
+
+</table>
+
 {% endblock %}
