@@ -7,3 +7,6 @@
 4. Test the landing page `python manage.py runserver`
 5. add 'models.py' and 'views.py' or use 'startapp' [more](https://docs.djangoproject.com/en/2.0/intro/tutorial01/)
 
+
+## Important topics
+* [template language](https://docs.djangoproject.com/en/1.7/topics/templates/)
